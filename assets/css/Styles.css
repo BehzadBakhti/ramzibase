@@ -1,0 +1,537 @@
+*{
+font-family: 'Vazir' , sans-serif;
+
+font-size: 13px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+ 
+
+}
+
+
+body {
+  
+  margin-bottom: 60px;
+  min-height: 100%;
+  overflow-x: hidden;
+
+
+}
+ nav {
+  background-color: #003366ff;
+  color: #1111FF;
+
+ }
+
+.w-15{
+width: 15% !important;
+
+
+}
+
+.w-10{
+width: 10% !important;
+
+
+}
+
+.w-20{
+width: 20% !important;
+text-align: left;
+
+}
+.w-100{
+width: 100% !important;
+text-align: left;
+
+}
+
+.w-25{
+width: 25% !important;
+
+}
+.w-73{
+width: 73% !important;
+
+}
+.w-35{
+width: 35% !important;
+
+}
+.w-40{
+width: 40% !important;
+
+}
+
+.w-45{
+width: 45% !important;
+
+}
+.w-60{
+width: 60% !important;
+
+}
+
+@font-face {
+  font-family: "Vazir";
+  src: url('../fonts/Vazir.eot');
+  src: url('../fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Vazir.woff2') format('woff2'),
+       url('../fonts/Vazir.woff') format('woff'),
+       url('../fonts/Vazir.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Vazir";
+  src: url('../fonts/Vazir-Bold.eot');
+  src: url('../fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+       
+       url('../fonts/Vazir-Bold.woff') format('woff'),
+       url('../fonts/Vazir-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Vazir";
+  src: url('../fonts/Vazir-Light.eot');
+  src: url('../fonts/Vazir-Light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Vazir-Light.woff2') format('woff2'),
+       url('../fonts/Vazir-Light.woff') format('woff'),
+       url('../fonts/Vazir-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Vazir";
+  src: url('../fonts/Vazir-Medium.eot');
+  src: url('../fonts/Vazir-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Vazir-Medium.woff2') format('woff2'),
+       url('../fonts/Vazir-Medium.woff') format('woff'),
+       url('../fonts/Vazir-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Vazir";
+  src: url('../fonts/Vazir-Thin.eot');
+  src: url('../fonts/Vazir-Thin.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Vazir-Thin.woff2') format('woff2'),
+       url('../fonts/Vazir-Thin.woff') format('woff'),
+       url('../fonts/Vazir-Thin.ttf') format('truetype');
+  font-weight: 100;
+}
+
+
+
+@font-face {
+    font-family: "Yekan";
+    src:url('../fonts/BYekan.eot?#') format('eot'),
+          url('../fonts/BYekan.woff') format('woff'),
+          url('../fonts/BYekan.ttf') format('truetype');
+}
+
+
+
+//***** MAIN COLORS ****//// 
+.main-color{
+  background-color:#003366 !important;
+   color:  #EEEEF0;
+}
+.second-color{
+  background-color: #182625;
+   color:  #EEEEF0;
+}
+
+
+
+.sharp-blue{
+  background-color: #2266DD;
+   color:  #EEEEF0;
+}
+ 
+.successful{
+background-color: #33BB22;
+   color:  #EFEFFF;
+}
+
+.pending{
+
+    background-color: #EE7722;
+     color:  #EFEFFF;
+  }
+}
+
+
+.light-blue{
+ background-color: #7CBDFF;
+  color:  #001835;
+
+}
+.light-gray, .light-gray .feature-p{
+ background-color: #EAEAEA;
+  color:  #333225;
+
+}
+
+.mainlogo{
+
+  background: url("../icon/logo.png");
+  background-size: contain;
+  min-width: 170px;
+  min-height: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-red{
+background-color: #EE1C49;
+  color:  #EFEFFF;
+
+}
+
+.primaryBtn{
+  background-color: #C0C0C0;
+  color:  #222;
+}
+
+.secondaryBtn{
+   background-color: #2266DD;
+  color:  #EEEEF0;
+}
+
+.ordinaryBtn{
+background-color: #EE1C49;
+  color:  #EEEEF0;
+}
+
+.homeBtn{
+transition: all .2s ;
+}
+
+
+.homeBtn:hover{
+
+transform: scale(1.1);
+background-color: #EE1C49;
+  color:  #EEEEF0;
+
+}
+
+
+
+.nav-left{
+
+  color: rgba(256, 256, 256,0.8);
+  margin: 0px 10px;
+  font-size: 14px;
+
+  background-color: transparent;
+  border-style: none;
+}
+.nav-left:hover{
+color: rgba(250, 240, 250,1);
+text-decoration: none;
+background-color: transparent;
+  border-style: none;
+}
+
+.nav-link{
+font-size: 14px;
+color: #FFFFFFcc !important;
+padding-left: 1em !important;
+padding-right: 1em !important;
+
+
+}
+
+
+.nav-item{
+padding: 0px 2px;
+
+}
+
+.nav-item:hover{
+
+  color:  #dff !important;
+background-color: #EE1C49;;
+
+}
+
+.active{
+padding: 0px 2px;
+border-bottom: 2px solid #EE1C49;
+
+
+}
+
+.home-image{
+background: url("../img/blockchain.jpg");
+background-size: cover; 
+padding-top:7em;
+height: 78vh;
+
+}
+
+#heading {
+  color: #FFFFFF;
+  font-size: 50px;
+ /* font-weight: lighter;*/
+  position: relative;
+  animation: headingAnim;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes headingAnim {
+0% {opacity: 0; top: 50px ;}
+
+100%{opacity: 1; top: 30px;
+margin-bottom: 1em }
+}
+
+#description {
+  color: #FFFFFF;
+  font-size: 25px;
+  position: relative;
+  animation: descAnim;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes descAnim {
+0% {opacity: 0;  top: -25px }
+
+50%{opacity: 0.1; top: -25px}
+
+100%{opacity: 1;
+margin-bottom: 1em;  top:-25px; }
+}
+
+
+
+
+#home-icons{
+  color: #335;
+}
+.faicon{
+
+  font-size: 40px;
+  color: rgb(124, 189, 255)
+}
+.faicon.big{
+
+  font-size: 50px;
+  color: rgb(124, 189, 255)
+}
+#home-news {
+  position: relative;
+  top:10px;
+  min-height: 300px;
+  background: url("../img/Heading.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  color: #fff; }
+
+.dark-overlay {
+  position: absolute;
+  background-color: rgba(10, 20, 40, 0.3);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+
+
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin :0 auto;
+}
+
+.form-group .form-control {
+  border-radius: 0px;
+  background-color:#F5F5F8;
+  color: #444;
+}
+
+.form-control {
+  border-radius: 0px;
+  background-color:#F5F5F8;
+  color: #444;
+}
+
+.form-control.contactForm{
+background-color: transparent;
+
+
+}
+
+.border{
+  border: 1px solid #AAA !important;
+
+}
+
+
+.orderCancelBtn{
+ padding:0px 5px;
+ font-size: 12px;
+ margin:1px auto;
+ display:block;
+}
+
+
+.tableCell{
+  height: 14px;
+  font-size: 12px;
+
+  vertical-align:top;
+  padding: 0px;
+  margin: 0px;
+}
+
+td{
+color: #555;
+}
+
+
+tbody tr:hover{
+ background-color: #1188cc !important;
+cursor:pointer !important;
+}
+td:hover{
+ background-color: transparent !important;
+cursor:pointer !important;
+}
+
+table.table-bordered{
+    border:1px solid #404645;
+
+  }
+table.table-bordered > thead > tr > th{
+    border:1px solid #404645;
+    color: #DDE !important;
+    font-size: 13px;
+}
+table.table-bordered > tbody > tr > td{
+    border:1px solid #404645;
+    height: 13px;
+}
+
+.fund-titles{
+text-align: center;
+color: #444455;
+font-size: 18px;
+
+}
+.fund-thead{
+background-color: #036;
+
+}
+
+.footer {
+  position: relative;
+  bottom: -60px;
+  width: 100%;
+  line-height: 20px;
+
+  color: #9a9;
+}
+
+.footer a{
+
+color:  #aba;
+
+}
+
+.rtl{
+direction: rtl;
+text-align: center;
+
+}
+
+
+.admin-dashboard{
+  padding: 1px;
+  background-color: rgb(33, 20, 71);
+}
+
+
+
+.admin-dashboard-btn{
+font-size: 14px;
+color: white;
+margin: 1px 0;
+padding: 0px;
+width: 100%;
+height: 40px;
+text-align: center;
+
+border-width: 0px;
+border-style: solid;
+background-color: rgb(77, 59, 136) ;
+}
+
+
+.admin-dashboard-btn:hover{
+
+background-color: rgb(77, 59, 200) !important;
+
+
+}
+
+#chart_div{
+
+  osition: absolute;
+    top:0%;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin: auto;
+}
+
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2,
+.col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7,
+.col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11,
+.col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5,
+.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1,
+.col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3,
+.col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9,
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3,
+.col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.input-group-text{
+  border-radius: 0px ;
+}
+
+
+
+.btn{
+  border-radius: 0px !important;
+}
+
+
+
+.feature-p{
+
+  text-align: justify; 
+  text-justify: inter-word;
+
+}
+
+//*********** ICONS**//
+
+

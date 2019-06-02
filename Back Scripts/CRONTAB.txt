@@ -1,0 +1,3 @@
+0 * * * * php /var/www/clients/client1/crontasks/db_backup.php
+*/5 * * * * php /var/www/clients/client1/backScripts/webHook.php
+*/5 * * * * php /var/www/clients/client1/backScripts/mmHandler.php

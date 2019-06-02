@@ -1,0 +1,19 @@
+<?php
+
+include('/var/www/clients/client1/web1/web/config.php');
+include('/var/www/clients/client1/web1/web/classes/Model.php');
+include('/var/www/clients/client1/web1/web/classes/Controller.php');
+include('/var/www/clients/client1/web1/web/models/deal.php');
+include('/var/www/clients/client1/web1/web/controllers/market_maker.php');
+include('/var/www/clients/client1/web1/web/models/market_maker.php');
+
+        $myController= new MarketMaker();
+        $myMMModel= new MarketMakerModel();
+        $tradePairs=['BTC/IRR'/*,'BTC/ETH','BTC/BCH','BTC/LTC','ETH/IRR','ETH/BCH','ETH/LTC','BCH/IRR','BCH/IRR','BCH/LTC','LTC/IRR'*/];
+	sleep(rand(5,40));
+        foreach ($tradePairs as $pair) {
+        	$myController->executeMM($pair);
+        }
+
+?>
+
